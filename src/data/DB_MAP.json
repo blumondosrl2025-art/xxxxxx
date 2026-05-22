@@ -1,0 +1,53 @@
+{
+  "products": {
+    "table": "products",
+    "description": "臻选好物详情、价格与素材库",
+    "fields": [
+      "id",
+      "name",
+      "price",
+      "originalPrice",
+      "description",
+      "image",
+      "category"
+    ]
+  },
+  "sections": {
+    "table": "sections",
+    "description": "页面组装排版核心区块，如 hero, about, reviews",
+    "fields": [
+      "id",
+      "type",
+      "title",
+      "subtitle",
+      "content",
+      "alignment",
+      "productIds",
+      "items"
+    ]
+  },
+  "theme": {
+    "table": "theme",
+    "description": "色调倾向、高级倒角比例、全局英中宋等宽字体配组",
+    "fields": [
+      "primaryColor",
+      "accentColor",
+      "backgroundColor",
+      "cardBgColor",
+      "textColor",
+      "fontFamily",
+      "styleType",
+      "borderRadius"
+    ]
+  },
+  "history": {
+    "table": "history",
+    "description": "本地与云同步的高频回滚撤销链路版本快照",
+    "fields": [
+      "id",
+      "timestamp",
+      "schema",
+      "description"
+    ]
+  }
+}

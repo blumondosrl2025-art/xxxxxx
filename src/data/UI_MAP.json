@@ -1,0 +1,37 @@
+{
+  "openCart": {
+    "component": "CartDrawer",
+    "action": "setIsCartOpen(true)",
+    "description": "唤起侧边购物袋，并展示已加购商品"
+  },
+  "closeCart": {
+    "component": "CartDrawer",
+    "action": "setIsCartOpen(false)",
+    "description": "收起侧边购物袋"
+  },
+  "openTemplates": {
+    "component": "TemplateGalleryModal",
+    "action": "setIsTemplatesOpen(true)",
+    "description": "打开预设的精品店铺设计师模板库"
+  },
+  "closeTemplates": {
+    "component": "TemplateGalleryModal",
+    "action": "setIsTemplatesOpen(false)",
+    "description": "关闭精品店铺设计师模板库"
+  },
+  "openDeploy": {
+    "component": "DeploymentPopup",
+    "action": "setIsDeployOpen(true)",
+    "description": "展示发布弹出窗以获取导出和多端发布链接"
+  },
+  "changeTheme": {
+    "component": "ThemeEngine",
+    "action": "updateTheme()",
+    "description": "更新店铺色彩圆角与排版系统"
+  },
+  "toggleWorkspaceSkin": {
+    "component": "ChatWorkspace",
+    "action": "setWorkspaceSkin()",
+    "description": "切换辅助台的极简白(Mono)还是赛博黑(Cyber)风格"
+  }
+}
